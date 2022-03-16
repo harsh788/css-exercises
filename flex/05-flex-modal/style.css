@@ -20,7 +20,42 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
+
+.header {
+  align-items: center;
+  justify-content: space-between;
+  gap:16px;
+  display: flex;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+/*.header {
+  flex: 1 1 400px;
+}
+
+.icon .close-button {
+  flex: 1 1 40px;
+}
+
+.text {
+  justify-content: flex-end;
+  text-align: left;
+  max-width: 440px;
+}*/
 
 .icon {
   color: royalblue;
